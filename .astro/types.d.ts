@@ -67,6 +67,13 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"blog": {
+"custom-domain.mdx": {
+  id: "custom-domain.mdx",
+  slug: "custom-domain",
+  body: string,
+  collection: "blog",
+  data: InferEntrySchema<"blog">
+},
 "markdown-style-guide.md": {
   id: "markdown-style-guide.md",
   slug: "markdown-style-guide",
